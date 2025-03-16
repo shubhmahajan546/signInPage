@@ -1,0 +1,205 @@
+#button { 
+    background-color: greenyellow; 
+}
+
+#div_button { 
+    background-color: violet; 
+    width: 30%;  
+    height: 80%; 
+    max-width: fit-content;
+    margin: 40px; 
+    border-radius: 90%; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+}
+
+#test { 
+    margin: 40px; 
+    background-color: coral;
+    max-width: fit-content;
+    min-height: fit-content;
+    border-radius: 20px;
+    padding: 40px; 
+    font-size: 20px; 
+    box-shadow: 5px 5px 20px coral;
+}
+
+#message { 
+    visibility: hidden;
+    margin: 40px; 
+    padding: 20px; 
+    max-width: fit-content;
+    border-radius: 40px; 
+    background-color: blueviolet;
+    box-shadow: 5px 5px 20px blueviolet;
+}
+
+#mainBox { 
+    
+    margin: 10%; 
+    width: 70%;
+    height: 65%; 
+    display: inline-flex; 
+    box-shadow: 5px 5px 20px black;
+    border-radius: 30px; 
+
+}
+
+#box1 { 
+    background-color: whitesmoke;
+    justify-content: center; /* horizontal centering */ 
+    align-items: center; /* vertical centering */ 
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px; 
+    width: 50%; 
+    height: 100%; 
+    
+}
+
+#box2 { 
+    background-color: lightskyblue;
+    justify-content: center; /* horizontal centering */ 
+    align-items: center; /* vertical centering */ 
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; 
+    width: 50%;
+    height: 100%; 
+}
+
+html, body {
+    height: 100%; 
+    width: 100%; 
+    display: flex;  
+    margin: 0; 
+    justify-content: center; /* horizontal centering */ 
+    align-items: center; /* vertical centering */ 
+    background-color: white;
+}
+
+#title1 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%; 
+    margin-left: 7%; 
+    margin-top: 7%; 
+    color: lightskyblue; 
+    width: 100%;
+    display: inline-block; 
+
+}
+
+#title2 { 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    display: flex; 
+    justify-content: center;
+    margin-top: 40%; 
+    margin-bottom: 0; 
+    padding-bottom: 0;
+    color: whitesmoke; 
+    
+}
+
+#subtitle2 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex; 
+    justify-content: center; 
+    margin-top: 1%; 
+    color: whitesmoke; 
+}
+#signup {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding: 2%; 
+}
+#createAccount {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    padding: 2%; 
+    width: 10%; 
+    
+
+    border-radius: 30px;
+    border-color: whitesmoke;
+
+    border-style: solid;
+    color: whitesmoke; 
+}
+#emailLabel { 
+    margin-left: 7%; 
+    color: lightskyblue; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: xx-large;
+    margin-bottom: 1%; 
+}
+#email { 
+    margin-left: 7%; 
+    width: 80%; 
+    padding: 2%; 
+    font-size:  x-large;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: lightskyblue; 
+    border-width: 5px;
+    border-radius: 30px; 
+}
+#passwordLabel {
+    margin-bottom: 1%; 
+    margin-top: 8%; 
+    margin-left: 7%; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: 100; 
+    font-size:xx-large;
+    color: lightskyblue; 
+
+}
+
+#password { 
+    margin-left: 7%; 
+    width: 80%; 
+    padding: 2%; 
+    font-size:  x-large;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: lightskyblue; 
+    border-width: 5px;
+    border-radius: 30px; 
+}
+
+#rememberMe { 
+    display: inline-flex; 
+    width: 80%; 
+    margin-left: 7%; 
+    margin-top: 3%; 
+    padding-left: 3%; 
+    padding-right: 3%; 
+    
+}
+
+#forgot {
+    margin-left: 45%; 
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    font-size: large; 
+}
+
+#rememberp { 
+    font-family: 'Times New Roman', Times, serif;
+    color: lightskyblue; 
+    font-size: large; 
+}
+#remember { 
+    padding: 1%; 
+}
+
+#signinButton {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: 7%; 
+    padding: 3%; 
+    margin-top: 3%; 
+    width: 80%; 
+    font-weight: bold;
+    font-size: x-large; 
+    background: lightskyblue; 
+    text-align: center;
+    border-radius: 30px;
+    color: whitesmoke; 
+}
+
